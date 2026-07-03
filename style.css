@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding:0;
@@ -6,7 +7,7 @@
 }
 
 body{
-    background:linear-gradient(135deg,#ff7b00,#ffb347);
+    background:linear-gradient(135deg,#ff7300,#ffb347);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -15,54 +16,61 @@ body{
 
 .container{
     background:white;
+    width:500px;
     padding:40px;
     border-radius:20px;
     text-align:center;
-    box-shadow:0 10px 20px rgba(0,0,0,.3);
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
 
 h1{
-    color:#ff6a00;
-    margin-bottom:25px;
+    color:#ff6600;
+    margin-bottom:15px;
+}
+
+p{
+    color:#555;
+    margin-bottom:20px;
 }
 
 .caixas{
     display:flex;
     justify-content:center;
-    gap:12px;
+    gap:10px;
+    margin-bottom:25px;
 }
 
 .caixas input{
     width:60px;
     height:60px;
-    border:3px solid #b3ff00;
+    border:3px solid #ff8c00;
     border-radius:12px;
-    font-size:30px;
-    font-weight:bold;
     text-align:center;
-    outline:none;
-    transition:.3s;
+    font-size:28px;
+    font-weight:bold;
+    color:#ff5500;
+    background:#fff8f0;
 }
 
-.caixas input:focus{
-    border-color:#ff00bf;
-    box-shadow:0 0 10px #340bff;
+.botoes{
+    display:flex;
+    justify-content:center;
+    gap:15px;
 }
 
 button{
-    margin-top:25px;
-    padding:15px 40px;
+    padding:12px 25px;
     border:none;
-    background:#ff6a00;
-    color:rgb(254, 7, 7);
-    font-size:18px;
     border-radius:10px;
+    background:#ff6a00;
+    color:white;
+    font-size:16px;
     cursor:pointer;
     transition:.3s;
 }
 
 button:hover{
-    background:#e600c7;
+    background:#e65c00;
 }
 
 #resultado{

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Validador de Código</title>
+    <title>Gerador de Senha</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,18 +11,23 @@
 
 <div class="container">
 
-    <h1>Digite o Código</h1>
+    <h1>Gerador de Senha</h1>
+
+    <p>A senha deve conter 2 letras maiúsculas e 3 números.</p>
 
     <div class="caixas">
-        <input type="text" maxlength="1">
-        <input type="text" maxlength="1">
-        <input type="text" maxlength="1">
-        <input type="text" maxlength="1">
-        <input type="text" maxlength="1">
-        <input type="text" maxlength="1">
+        <input type="text" maxlength="1" readonly>
+        <input type="text" maxlength="1" readonly>
+        <input type="text" maxlength="1" readonly>
+        <input type="text" maxlength="1" readonly>
+        <input type="text" maxlength="1" readonly>
+        <input type="text" maxlength="1" readonly>
     </div>
 
-    <button onclick="validar()">Validar</button>
+    <div class="botoes">
+        <button onclick="gerarSenha()">Gerar Senha</button>
+        <button onclick="validar()">Validar</button>
+    </div>
 
     <p id="resultado"></p>
 
