@@ -35,7 +35,7 @@ h1{
 .caixas input{
     width:60px;
     height:60px;
-    border:3px solid #ff8800;
+    border:3px solid #b3ff00;
     border-radius:12px;
     font-size:30px;
     font-weight:bold;
@@ -45,8 +45,8 @@ h1{
 }
 
 .caixas input:focus{
-    border-color:#ff4d00;
-    box-shadow:0 0 10px #ff8800;
+    border-color:#ff00bf;
+    box-shadow:0 0 10px #340bff;
 }
 
 button{
@@ -54,7 +54,7 @@ button{
     padding:15px 40px;
     border:none;
     background:#ff6a00;
-    color:white;
+    color:rgb(254, 7, 7);
     font-size:18px;
     border-radius:10px;
     cursor:pointer;
@@ -62,7 +62,7 @@ button{
 }
 
 button:hover{
-    background:#e65c00;
+    background:#e600c7;
 }
 
 #resultado{
