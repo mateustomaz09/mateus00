@@ -24,7 +24,7 @@ body{
 }
 
 h1{
-    color:#ff6600;
+    color:#0f0fa6;
     margin-bottom:15px;
 }
 
@@ -62,7 +62,7 @@ button{
     padding:12px 25px;
     border:none;
     border-radius:10px;
-    background:#ff6a00;
+    background:#5dd80b;
     color:white;
     font-size:16px;
     cursor:pointer;
@@ -70,7 +70,7 @@ button{
 }
 
 button:hover{
-    background:#e65c00;
+    background:#a4d813;
 }
 
 #resultado{
